@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.border {
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 150px;
+    border: 0px #e2e0e0;
+    padding: 20px 20px 20px 20px;
+    background-color: #e2e0e0;
+    border-radius: 5px;
+    position: relative;
+}
+.log::before {
+    content: "";
+    background-image: url(https://1.bp.blogspot.com/-mnJpGWfiwT8/XyFrhB90PqI/AAAAAAAAAYc/J-riiu2TOnEdeRNgS6M5Eq1uN1vLM2oywCK4BGAYYCw/s1600/Musik%2BTradisional%2BNusantara.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    background-color: black;
+}

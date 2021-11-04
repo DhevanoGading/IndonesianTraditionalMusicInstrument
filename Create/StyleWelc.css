@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    opacity: 0.5;
+}
+.judul{
+    color: white;
+    top: 170px;
+    left: 508px;
+}
+.p1{
+    color: white;
+    top: 230px;
+    left: 480px;
+}
+.p2{
+    color: white;
+    top: 270px;
+    left: 365px;
+}
+.masuk{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    top: 330px;
+    left: 590px;
+    background-color: blue;
+    padding: 7px 12px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    transition: padding 1s, top 1s, left 1s, font-size 1s;
+}
+.masuk:hover{
+    font-size: 18px;
+    top: 327px;
+    left: 587px;
+    padding: 10px 15px;
+}
+img,.judul,.p1,.p2,.masuk{
+    position: absolute;
+}

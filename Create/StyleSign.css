@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.border {
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 150px;
+    border: 0px #e2e0e0;
+    padding: 20px 20px 20px 20px;
+    background-color: #e2e0e0;
+    border-radius: 5px;
+    position: relative;
+}
+.log::before {
+    content: "";
+    background-image: url(https://s0.bukalapak.com/uploads/content_attachment/a8fd33a020e8d762534de3c5/original/cover_-_buffalogamelan.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    background-color: black;
+}
